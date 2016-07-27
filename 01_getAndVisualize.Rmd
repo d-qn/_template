@@ -1,0 +1,42 @@
+---
+title: "01_templateSWI"
+author: "Duc-Quang Nguyen"
+date: "27 July 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyr)
+library(dplyr)
+library(magrittr)
+library(countrycode)
+library(ggplot2)
+library(scales)
+library(swiMap)
+library(swiTheme)
+
+
+### Getting data in packages
+library(rvest)
+library(XLConnect)
+library(WDI)
+library(eurostat)
+library(imfr)
+
+
+### Interactive 
+library(htmltools)
+library(shiny)
+library(swiRcharts)
+library(rCharts)
+
+### Mapping 
+# require(rgdal)
+# require(rgeos)
+# require(maptools)
+
+
+### Misc stuff
+#require(classInt)
+#require(viridis)
+```

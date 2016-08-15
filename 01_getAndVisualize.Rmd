@@ -1,11 +1,16 @@
 ---
-title: "01_templateSWI"
-author: "Duc-Quang Nguyen"
-date: "27 July 2016"
-output: html_document
+title: ""
+author: "Duc-Quang Nguyen | swissinfo.ch"
+date: " 2016"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: simplex
 ---
 
 ```{r setup, include=FALSE}
+library(readr)
 library(tidyr)
 library(dplyr)
 library(magrittr)
@@ -14,11 +19,11 @@ library(ggplot2)
 library(scales)
 library(swiMap)
 library(swiTheme)
-
+library(forcats)
 
 ### Getting data in packages
 library(rvest)
-library(XLConnect)
+library(readxl)
 library(WDI)
 library(eurostat)
 library(imfr)

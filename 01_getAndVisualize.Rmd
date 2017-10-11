@@ -10,16 +10,14 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(readr)
-library(tidyr)
-library(dplyr)
+options(tibble.width = Inf)
+library(tidyverse)
 library(magrittr)
+library(knitr)
 library(countrycode)
-library(ggplot2)
-library(scales)
 library(swiMap)
 library(swiTheme)
-library(forcats)
+
 
 ### Getting data in packages
 library(rvest)

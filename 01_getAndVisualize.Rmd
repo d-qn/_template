@@ -1,15 +1,16 @@
 ---
 title: ""
-author: "Duc-Quang Nguyen | swissinfo.ch"
-date: " 2017"
+author: "Duc-Quang Nguyen | Tribune de Genève | Tamedia"
+date: " 2018"
 output: 
   html_document:
-    code_folding: show
+    code_folding: hide
     echo: TRUE
     warning: FALSE
     message: FALSE
     toc: yes
     toc_depth: 3
+    toc_float: true
     theme: simplex
 ---
 
@@ -21,27 +22,19 @@ library(tidyverse)
 library(magrittr)
 library(stringr)
 library(knitr)
-library(countrycode)
-library(swiMap)
-library(swiTheme)
+library(tamMap)
 
 ### Getting data in packages
 library(rvest)
 library(readxl)
 library(WDI)
 library(eurostat)
-library(imfr)
 
 ### Interactive 
 library(htmltools)
 library(swiRcharts)
 library(rCharts)
 library(highcharter)
-
-### Mapping 
-# require(rgdal)
-# require(rgeos)
-# require(maptools)
 
 ### Misc stuff
 #require(classInt)

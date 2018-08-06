@@ -18,19 +18,27 @@ output:
 cleanOutput <- F
 
 require(lintr)
+require(here)
+
 library(tidyverse)
 library(magrittr)
 library(stringr)
 library(knitr)
+library(sf)
 library(tamMap)
+library(tamTheme)
+library(hrbrthemes)
+library(skimr)
 
 ### Getting data in packages
+library(secret)
 library(rvest)
 library(readxl)
 library(WDI)
 library(eurostat)
 
 ### Interactive 
+library(ggiraph)
 library(htmltools)
 library(swiRcharts)
 library(rCharts)

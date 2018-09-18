@@ -40,13 +40,7 @@ library(eurostat)
 ### Interactive 
 library(ggiraph)
 library(htmltools)
-library(swiRcharts)
-library(rCharts)
 library(highcharter)
-
-### Misc stuff
-#require(classInt)
-#require(viridis)
 ```
 
 

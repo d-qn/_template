@@ -29,6 +29,7 @@ library(tamMap)
 library(tamTheme)
 library(hrbrthemes)
 library(skimr)
+library(paletteer)
 
 ### Getting data in packages
 library(secret)
@@ -41,6 +42,8 @@ library(eurostat)
 library(ggiraph)
 library(htmltools)
 library(highcharter)
+update_geom_font_defaults()
+
 ```
 
 

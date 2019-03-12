@@ -1,7 +1,7 @@
 ---
 title: ""
-author: "Duc-Quang Nguyen | Tribune de Genève | Tamedia"
-date: " 2018"
+author: "Duc-Quang Nguyen | Tamedia"
+date: " 2019"
 output: 
   html_document:
     code_folding: hide
@@ -42,7 +42,7 @@ library(eurostat)
 library(ggiraph)
 library(htmltools)
 library(highcharter)
-update_geom_font_defaults()
+tamTheme::update_geom_font_defaults()
 
 ```
 

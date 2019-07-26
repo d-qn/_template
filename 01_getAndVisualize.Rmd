@@ -17,9 +17,6 @@ output:
 ```{r setup, include=FALSE}
 cleanOutput <- F
 
-require(lintr)
-require(here)
-
 library(tidyverse)
 library(magrittr)
 library(stringr)

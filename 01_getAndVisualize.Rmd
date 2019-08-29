@@ -44,25 +44,4 @@ tamTheme::update_geom_font_defaults()
 ```
 
 
-```{r move production graphics}
-if (cleanOutput) {
-  files <- c("basename_.*html", "js")
 
-  if (!dir.exists("output/bak")) {
-    dir.create("output/bak")
-  } else {
-    list.files("output/bak/", full.names = T, recursive = T) %>% file.remove()
-  }
-  ori.files <- list.files("output", full.names = T)[list.files("output") != "bak"]
-  file.copy(ori.files, to = "output/bak/", recursive = T)
-  unlink(ori.files, recursive = T)
-
-  files_tomove <- lapply(files, function(x) list.files(pattern = x)) %>% unlist()
-  file.copy(files_tomove, "output", recursive = T)
-  unlink(files_tomove, recursive = T)
-}
-```
-
-```{r linting}
-lintr::lint(knitr::current_input())
-```

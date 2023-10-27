@@ -3,6 +3,8 @@ title: "Get and Visualize data boilerplate"
 author: "Duc-Quang Nguyen | Le Temps"
 date: last-modified
 editor: visual
+execute: 
+  cache: true
 highlight-style: pygments
 format:
   html: 
@@ -17,7 +19,10 @@ format:
     theme: simplex
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| label: setup
+#| include: false
+  
 library(here)
 library(tidyverse)
 library(magrittr)

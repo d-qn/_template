@@ -1,5 +1,5 @@
 ---
-title: "Get and Visualize data boilerplate"
+title: ""
 author: "Duc-Quang Nguyen | Le Temps"
 date: last-modified
 editor: visual
@@ -18,6 +18,10 @@ format:
     toc_float: true
     theme: simplex
 ---
+
+## Data
+
+## Related
 
 ```{r}
 #| label: setup
@@ -52,6 +56,4 @@ dw_key <- "vY8MIJtcYvJj0MwHQ50O9D8zvHDQZIydPeo0QUtyhnyga5ks2dp58uak9dRrjSRw"
 
 ```
 
-## Data
-
-## Related
+## 
